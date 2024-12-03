@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+ol{
+    color: #87f597;
+    color: #00D620;
+    color: #00B31B;
+    color: #008A15;
+    color: #00610F;
+    color:#003808 ;
+}
+
+*{
+    h1{
+        margin: 0px;
+    }
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(fontes/bebasneue.otf);
+}
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: #87f597;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(180deg, #00D620, #00610F);
+    padding: 20px 0px 8px 0px;
+}
+
+#principal{
+    font-family: bebas;
+    font-size: 2.5em;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.279);
+}
+
+header>p{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.279)
+}
+
+nav{
+    text-align: left;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 8px 0px 8px;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0px auto 20px auto;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+main>h1{
+    color: #00610F;
+    font-family: android;
+}
+
+main>h2{
+    color: #00610F;
+    background-image: linear-gradient(90deg, #00d62063, white);
+    font-family: android;
+}
+
+a{
+    text-decoration: none;
+    color: #008A15;
+
+}
+
+#curiosidade{
+    color: white;
+    background-color: #00B31B;
+    padding: 8px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside{
+    background-color: #87f597;
+    padding: 10px;
+}
+
+ul{
+    columns: 2;
+}
+
+strong{
+    color: #008A15;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+footer{
+    background-color: #003808;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.links{
+    color: white;
+    font-weight: bold;
+}
